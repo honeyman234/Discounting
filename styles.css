@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+nav ul {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+}
+h1 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+nav h1 {
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+body {
+    
+        background-image: url('account.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  input, button {
+    margin-bottom: 30px;
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease;
+  }
+
+  .copy {
+    color: wheat;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    animation: slideIn 1s ease;
+  }
+
+  #presentValue {
+    color: white;
+    font-size: 18px;
+    font-weight: 18px;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
